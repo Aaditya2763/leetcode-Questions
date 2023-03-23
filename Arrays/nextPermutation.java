@@ -11,7 +11,7 @@ public class nextPermutation {
 					//the swapped array is greater permutation but not the next greater permutation
 					for(int i=arr.length-2;i>=0;i--) {
 						if(arr[i]<arr[i+1]) {
-							p=i;
+							p=i;	
 							break;
 						}
 					}
